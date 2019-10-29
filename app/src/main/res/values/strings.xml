@@ -5,4 +5,24 @@
     <string name="login_register_toast_2">请输入正确的验证码</string>
     <string name="login_register_code_get_remain">剩余</string>
     <string name="login_register_code_get">获取验证码</string>
+
+
+
+
+
+
+
+
+    <string name="wishtree_wish_plate_pay_list_explain_content">"1、许愿牌分免费、普通 、豪华版，免费许愿牌每天只能领取一次的哦。
+2、免费的许愿牌挂在许愿树的底部，被替换下来的几率很大，需要定期重新挂上去，购买普通或豪华的许愿牌，永久挂在树上，可以儘早实现愿望！
+3、豪华的许愿牌挂在顶部，普通的许愿牌挂在中间、免费的许愿牌挂在许愿树的底部，许愿牌与天接近容易获得天神感应，引人瞩目，您的愿望更能早日实现。"</string>
+    <string name="wishtree_wish_plate_pay_list_explain_title">许愿说明</string>
+    <string name="wishingtree_home_intoduct_two_text">每个人心中都有美好的愿望，并且渴望实现，不妨为自己、家人、爱人或亲友写个愿望牌，永久地挂在许愿树上，愿望很快实现！</string>
+    <string name="wishingtree_home_intoduct_third_text">点击许愿牌就可以看到大家写的愿望啦！ 您可以左右滑动萤幕查看更多愿望哦！</string>
+    <string name="wishingtree_home_intoduct_fourth_text">高级许愿牌会受到许愿树和更多人关注，您的愿望获得更多祝福。 如果您不想所有人都知道您的愿望，可以设置隐藏，许愿树仍会默默守护您的愿望！</string>
+    <string name="wishingtree_home_intoduct_fifth_text">如果您的愿望达成，可以来许愿树还愿，许愿树会一直守护著您！ 您也可以保存愿望，分享您的愿望！</string>
+    <string name="wishtree_bang_sm_detail1">1、排行榜单显示榜单前100的愿望。</string>
+    <string name="wishtree_bang_sm_detail2">2、我的排名显示榜单前1000的愿望，分享愿望让家人朋友帮忙祝福，祝福越多排名越靠前喔！</string>
+
+
 </resources>

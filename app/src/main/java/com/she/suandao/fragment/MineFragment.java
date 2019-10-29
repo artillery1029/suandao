@@ -1,14 +1,12 @@
 package com.she.suandao.fragment;
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.she.suandao.R;
 import com.she.suandao.activity.BlessingActivity;
 import com.she.suandao.activity.SettingActivity;
 import com.she.suandao.activity.UserManagerActivity;
+import com.she.suandao.activity.WishingtreeMainActivity;
 import com.she.suandao.base.BaseFragment;
 import com.she.suandao.config.StringConfig;
 import com.she.suandao.customview.CircleImageView;
@@ -16,9 +14,7 @@ import com.she.suandao.customview.FontTextView;
 import com.she.suandao.utils.SharedPrefsUtil;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.Unbinder;
 
 /**
  * Description :
@@ -68,6 +64,7 @@ public class MineFragment extends BaseFragment {
                 startAct(UserManagerActivity.class);
                 break;
             case R.id.ll_gd:
+                startAct(WishingtreeMainActivity.class);
                 break;
             case R.id.ll_fz:
                 break;

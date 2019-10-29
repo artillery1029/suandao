@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="110.0dip"
+    android:background="@color/color_fff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginRight="19.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/wishtree_bang_avatar"
+            android:layout_width="41.0dip"
+            android:layout_height="41.0dip"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/lingji_default_user_img_big" />
+        <LinearLayout
+            android:id="@+id/wishtree_bang_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/wishtree_bang_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/wishtree_bang_avatar"
+                    android:layout_weight="1.0"
+                    android:text="xxx"
+                    android:textColor="#ff666666"
+                    android:textSize="14.0sp" />
+                <ImageView
+                    android:id="@+id/wishtree_bang_pray"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:background="@drawable/wishtree_like_bg" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/wishtree_bang_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="xxxx"
+                android:textColor="#ff999999"
+                android:textSize="10.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.5dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="13.0dip"
+        android:layout_marginRight="16.0dip"
+        android:background="@drawable/wishingtree_bg_write_wish_content_edit_dash_line"
+        android:layerType="software" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="19.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排名"
+            android:textColor="#ff666666"
+            android:textSize="16.0sp" />
+        <TextView
+            android:id="@+id/wishtree_bang_mynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:text="0"
+            android:textColor="#ffb89563"
+            android:textSize="18.0sp" />
+        <android.support.v4.widget.Space
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收到祝福"
+            android:textColor="#ff666666"
+            android:textSize="16.0sp" />
+        <TextView
+            android:id="@+id/wishtree_bang_praynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:text="0"
+            android:textColor="#ffb89563"
+            android:textSize="18.0sp" />
+        <ImageView
+            android:id="@+id/wishtree_bang_zaniv1"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_marginLeft="7.0dip"
+            android:src="@drawable/wishtree_bang_circle" />
+        <ImageView
+            android:id="@+id/wishtree_bang_zaniv2"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:src="@drawable/wishtree_bang_circle" />
+        <ImageView
+            android:id="@+id/wishtree_bang_zaniv3"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:src="@drawable/wishtree_bang_circle" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffd7d7d7" />
+</LinearLayout>

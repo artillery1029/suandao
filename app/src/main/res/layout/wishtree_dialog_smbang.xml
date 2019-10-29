@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wishingtree_bg_introduction_circle"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:text="规则说明"
+            android:textColor="#ff2a2a2a"
+            android:textSize="17.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="25.0dip"
+            android:layout_marginRight="30.0dip"
+            android:lineSpacingExtra="8.0dip"
+            android:text="@string/wishtree_bang_sm_detail1"
+            android:textColor="#ff3a3b3a"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginRight="30.0dip"
+            android:lineSpacingExtra="8.0dip"
+            android:text="@string/wishtree_bang_sm_detail2"
+            android:textColor="#ff3a3b3a"
+            android:textSize="17.0sp" />
+
+        <Button
+            android:id="@+id/wishtree_bang_know"
+            android:layout_width="140.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40.0dip"
+            android:layout_marginBottom="25.0dip"
+            android:background="@drawable/btn_winshingtree_back_bg"
+            android:text="知道了"
+            android:textColor="@color/color_fff"
+            android:textSize="17.0sp" />
+    </LinearLayout>
+</LinearLayout>

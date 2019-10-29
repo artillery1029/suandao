@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/wishtree_mywish_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="62.0dip"
+            android:paddingLeft="@dimen/dp_13"
+            android:paddingRight="@dimen/dp_13">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_18"
+                android:background="@drawable/btn_winshingtree_back_bg"
+                android:text="返回"
+                android:textColor="@color/color_fff"
+                android:textSize="@dimen/text_size_14"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/wishtree_title_mywish" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

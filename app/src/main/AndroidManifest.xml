@@ -72,6 +72,22 @@
         <activity
             android:name=".activity.SettingActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WishingtreeMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WishingtreeBangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WishingMywishActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.WishingCardActivity"
+            android:screenOrientation="portrait" />
+
+
+
     </application>
 
 </manifest>
